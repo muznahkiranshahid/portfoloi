@@ -3,23 +3,38 @@
   position: relative;
 }
 .page1{
+  position: absolute;
+  top: 0%;
     background-color: #121481;
     color: white;
-    height: 100%;
-    width: 1100px;
-    margin: 0;
-    margin-right: 100px;
-    z-index: -1;
+    height: 900px;
+    width : 100px;
+    margin-left: 0%;
+    margin-right:5px;
+    z-index:0;
+}
+.page1 p {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.page1 p:hover{ 
+  opacity: 1;
+
+}
+
+.page1:hover{
+  width: 1250px;
 }
 .page2{
+  position: absolute;
   background-color: #484997;
   color: white;
-  width: ;
-  height: 100%;
-  margin: 0;
-  margin-right: 80px;
-  z-index: -1;
-
+  top: 0%;
+    height: 900px;;
+    width: 1300px;
+    margin-left: 0%;
+    margin-right:5px;
+    z-index: -1;
 }
 .page3{
   background-color: #6a6cc0;
